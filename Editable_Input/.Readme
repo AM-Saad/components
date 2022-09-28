@@ -1,0 +1,25 @@
+How to use
+Copy & Paste the code in your project
+Install React
+Install tailwaind (-optional)
+
+Props
+Label: String
+
+inputType: String (text, number)
+
+defaultVal:String
+
+loading: Boolean (optional)
+
+onSave( value: String | Number): method to excute a function with the new value for the parent.
+
+required: boolean (optional) (default > False)
+
+validationMessage: string (optional) (default > 'This field is required')  
+
+updateBtnText: string(optional) (default > Update)
+
+cancelBtnText: string(optional) (default > Cancel)
+
+id:string |. number
