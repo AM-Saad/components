@@ -1,9 +1,15 @@
 **How to use**
+```bash
 Copy & Paste the code in your project
+
 Install React
+
 Install tailwaind (-optional)
+```
 
 Props
+
+```bash
 Label: String
 
 inputType: String (text, number)
@@ -23,3 +29,4 @@ updateBtnText: String(optional) (default > Update)
 cancelBtnText: String(optional) (default > Cancel)
 
 id:String | Number
+```
