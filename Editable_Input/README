@@ -1,4 +1,4 @@
-How to use
+**How to use**
 Copy & Paste the code in your project
 Install React
 Install tailwaind (-optional)
@@ -16,10 +16,10 @@ onSave( value: String | Number): method to excute a function with the new value 
 
 required: boolean (optional) (default > False)
 
-validationMessage: string (optional) (default > 'This field is required')  
+validationMessage: String (optional) (default > 'This field is required')  
 
-updateBtnText: string(optional) (default > Update)
+updateBtnText: String(optional) (default > Update)
 
-cancelBtnText: string(optional) (default > Cancel)
+cancelBtnText: String(optional) (default > Cancel)
 
-id:string |. number
+id:String | Number
