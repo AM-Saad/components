@@ -1,3 +1,16 @@
+/*
+    options: any[] - array of objects to be displayed in the list
+    multiple: boolean - if true, multiple items can be selected
+    closeOnSelect: boolean - if true, the list will close after selecting an item
+    placeholder: string - placeholder for the input
+    id: string - id for the component
+    label: string - label for the object in the options array
+    trackBy: string - key for the object in the options array
+    disabled: boolean - if true, the component will be disabled
+    input: (items: any) => void - callback function to get the selected items
+    preSelected?: any[] - array of objects to be preselected
+    refresh?: any - if this prop changes, the component will reset the selected items
+*/
 
 import React, { useState, useEffect, useRef } from 'react'
 import BadgeWithDelete from './BadgeWithDelete';
@@ -132,3 +145,4 @@ const MultiSelect: React.FC<Props> = ({ options, multiple, closeOnSelect, placeh
 }
 
 export default MultiSelect
+
